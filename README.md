@@ -21,3 +21,10 @@ You will need to ensure the following packages are installed:
   1. data.table - Run the following in R: if (!require("data.table")) {install.packages("data.table")}
   2. reshape2 - Run the following in R: if (!require("reshape2")) {install.packages("reshape2")}
 
+#EXECUTING RUN_ANALYSIS.R
+The Script provided will download the above dataset then create a file within the working directory.  Once you have downloaded the required dataset, execute the remaining script to perform the following:
+  1. Extract only the mean and standard deviation for each measurement in "test" data
+  2. Assign a column_name to each category
+  3. Merge the "test" and "train" data
+  4. Melt and Cast the data to obtain a "clean" version (As noted in "tidy_data")
+
